@@ -1,0 +1,43 @@
+<datasource-http-settings
+        current="ctrl.current"
+        suggest-url="http://localhost:8080">
+</datasource-http-settings>
+
+<h3 class="page-heading">Tornimo details</h3>
+
+<div class="gf-form-group">
+
+    <div class="gf-form">
+      <span class="gf-form-label width-9">Token
+        <info-popover mode="right-normal" position="top center">
+          <p>Specify a UUID identifying the client (e.g. hyperion token). If absent - default one (as configured on server) will be used.
+          Only metrics sent with same Tornimo token will be visible to datasource.</p>
+        </info-popover>
+      </span>
+        <input class="gf-form-input width-22" type="text"
+               ng-model="ctrl.current.jsonData.token" placeholder="{{suggestToken}}"
+               min-length="0"
+               ng-pattern="/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i" required></input>
+    </div>
+
+    <div class="gf-form">
+    <span class="gf-form-label width-9">Bucket size
+      <info-popover mode="right-normal" position="top center">
+      <p>In seconds. Aggregate all data into fixed size buckets and fill empty buckets with nulls.</p>
+    </info-popover>
+    </span>
+        <select class="gf-form-input gf-size-auto" ng-model="ctrl.current.jsonData.bucketSizeSeconds" ng-options="f.value as f.name for f in ctrl.bucketSizes"></select>
+    </div>
+
+    <div class="gf-form">
+		<span class="gf-form-label width-9">
+      Version
+      <info-popover mode="right-normal" position="top center">
+        This option controls what functions are available in the Tornimo query editor.
+      </info-popover>
+    </span>
+        <span class="gf-form-select-wrapper">
+        <select class="gf-form-input gf-size-auto" ng-model="ctrl.current.jsonData.hyperionVersion" ng-options="f.value as f.name for f in ctrl.hyperionVersions"></select>
+    </span>
+    </div>
+</div>

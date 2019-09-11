@@ -1,0 +1,36 @@
+{
+  "name": "Tornimo",
+  "type": "datasource",
+  "id": "tornimo-datasource",
+  "executable": "tornimo-datasource-plugin",
+  "metrics": true,
+  "alerting": true,
+  "annotations": true,
+  "backend": true,
+
+  "partials": {
+    "config": "public/app/plugins/datasource/tornimo-datasource/partials/config.html"
+  },
+
+  "queryOptions": {
+    "maxDataPoints": true,
+    "cacheTimeout": true
+  },
+  "info": {
+    "author": {
+      "name": "CodeWise",
+      "url": "https://codewise.com"
+    },
+    "logos": {
+      "small": "img/tornimo_symbol.svg",
+      "large": "img/tornimo_symbol.svg"
+    }
+  },
+  "includes": [
+    {
+      "type": "dashboard",
+      "name": "Graphite Carbon Metrics",
+      "path": "dashboards/carbon_metrics.json"
+    }
+  ]
+}
