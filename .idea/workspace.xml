@@ -2,14 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a605820-a725-4661-9fcc-c6110b7578b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/partials/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partials/config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config_ctrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config_ctrl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datasource.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasource.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go10.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go10_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go11.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go11_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/assert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/assert_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/example/point.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/example/point_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/diff.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/diff_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/formatter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/formatter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/pretty.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/zero.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/num.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/colwriter/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/colwriter/column.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/colwriter/column_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/indent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/indent_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/mc/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/mc/mc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/wrap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/wrap_test.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +66,15 @@
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gopkg.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -65,29 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.editor.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="query.editor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/partials/query.editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+            <state relative-caret-position="771">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_ctrl.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config_ctrl.ts">
+      <file leaf-file-name="tornimo_query.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tornimo_query.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datasource.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datasource.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="579" column="9" lean-forward="true" selection-start-line="579" selection-start-column="9" selection-end-line="579" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -95,29 +132,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="func_editor.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/func_editor.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-              </folding>
+      <file leaf-file-name="query_help.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/query_help.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gfunc.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gfunc.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="890" column="19" lean-forward="true" selection-start-line="890" selection-start-column="19" selection-end-line="890" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="Gopkg.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -143,7 +172,6 @@
       <find>datema</find>
       <find>dateMath</find>
       <find>\t</find>
-      <find>simplejson</find>
       <find>Version</find>
       <find>tornimop</find>
       <find>hy</find>
@@ -155,6 +183,8 @@
       <find>hyper</find>
       <find>doHyperionRequest</find>
       <find>hyperion</find>
+      <find>simplejson</find>
+      <find>json</find>
     </findStrings>
     <replaceStrings>
       <replace>hy</replace>
@@ -183,7 +213,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/func_editor.js" />
-        <option value="$PROJECT_DIR$/Gopkg.toml" />
         <option value="$PROJECT_DIR$/pkg/time_range.go" />
         <option value="$PROJECT_DIR$/pkg/query_endpoint.go" />
         <option value="$PROJECT_DIR$/pkg/hyperion_test.go" />
@@ -218,6 +247,7 @@
         <option value="$PROJECT_DIR$/src/partials/config.html" />
         <option value="$PROJECT_DIR$/src/datasource.ts" />
         <option value="$PROJECT_DIR$/src/config_ctrl.ts" />
+        <option value="$PROJECT_DIR$/Gopkg.toml" />
       </list>
     </option>
   </component>
@@ -284,61 +314,6 @@
             <path>
               <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
               <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="bitly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="bitly" type="462c0819:PsiDirectoryNode" />
-              <item name="go-simplejson" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -500,7 +475,7 @@
       <workItem from="1567425954003" duration="1883000" />
       <workItem from="1567514196050" duration="9331000" />
       <workItem from="1567595930110" duration="423000" />
-      <workItem from="1567596529355" duration="77207000" />
+      <workItem from="1567596529355" duration="77480000" />
     </task>
     <servers />
   </component>
@@ -510,11 +485,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88844000" />
+    <option name="totallyTimeSpent" value="89117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="851" y="-1440" width="2560" height="1440" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -537,8 +511,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21538462" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16017488" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21538462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16017488" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -562,17 +536,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/hyperion_query.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/hyperion_query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/grafana/app/core/utils/datemath.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -789,26 +752,6 @@
     <entry file="file://$PROJECT_DIR$/src/img/tornimo_symbol.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tornimo_query.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/query_help.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/query_ctrl.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -919,8 +862,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/query.editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        <state relative-caret-position="771">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tornimo_query.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query_help.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

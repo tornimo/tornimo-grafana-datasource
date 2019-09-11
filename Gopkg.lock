@@ -2,22 +2,6 @@
 
 
 [[projects]]
-  digest = "1:512883404c2a99156e410e9880e3bb35ecccc0c07c1159eb204b5f3ef3c431b3"
-  name = "github.com/bitly/go-simplejson"
-  packages = ["."]
-  pruneopts = ""
-  revision = "aabad6e819789e569bd6aabf444c935aa9ba1e44"
-  version = "v0.5.0"
-
-[[projects]]
-  branch = "master"
-  digest = "1:8429e766f22031eb59e0d220a9c212335134b1417315f27ddbfc4f53af858fbf"
-  name = "github.com/bmizerany/assert"
-  packages = ["."]
-  pruneopts = ""
-  revision = "b7ed37b82869576c289d7d97fb2bbd8b64a0cb28"
-
-[[projects]]
   branch = "master"
   digest = "1:fdd23fa1d83847dfe77e38ec82fb8eed175fe6df65295ba34e759035acd954e8"
   name = "github.com/golang/protobuf"
@@ -77,22 +61,6 @@
   pruneopts = ""
   revision = "b4936e06046bbecbb94cae9c18127ebe510a2cb9"
   version = "v4.20"
-
-[[projects]]
-  digest = "1:3108ec0946181c60040ff51b811908f89d03e521e2b4ade5ef5c65b3c0e911ae"
-  name = "github.com/kr/pretty"
-  packages = ["."]
-  pruneopts = ""
-  revision = "73f6ac0b30a98e433b289500d779f50c1a6f0712"
-  version = "v0.1.0"
-
-[[projects]]
-  digest = "1:11b056b4421396ab14e384ab8ab8c2079b03f1e51aa5eb4d9b81f9e0d1aa8fbf"
-  name = "github.com/kr/text"
-  packages = ["."]
-  pruneopts = ""
-  revision = "e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f"
-  version = "v0.1.0"
 
 [[projects]]
   digest = "1:9adf43f9a17af07a6d587e3b493e2111ad8e07283d5cd58e44e70d23bf6dc644"
@@ -252,14 +220,11 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/bitly/go-simplejson",
-    "github.com/bmizerany/assert",
     "github.com/grafana/grafana_plugin_model/go/datasource",
     "github.com/hashicorp/go-hclog",
     "github.com/hashicorp/go-plugin",
     "github.com/opentracing/opentracing-go",
     "github.com/smartystreets/goconvey/convey",
-    "golang.org/x/net/context",
     "golang.org/x/net/context/ctxhttp",
   ]
   solver-name = "gps-cdcl"
