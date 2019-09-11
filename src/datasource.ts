@@ -10,8 +10,8 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
     this.name = instanceSettings.name;
     this.token = instanceSettings.jsonData.token;
     this.bucketSizeSeconds = instanceSettings.jsonData.bucketSizeSeconds || 60;
-    this.hyperionVersion = instanceSettings.jsonData.hyperionVersion || '0.3820';
-    this.supportsTags = supportsTags(this.hyperionVersion);
+    this.tornimoVersion = instanceSettings.jsonData.tornimoVersion || '0.3820';
+    this.supportsTags = supportsTags(this.tornimoVersion);
     this.cacheTimeout = instanceSettings.cacheTimeout;
     this.withCredentials = instanceSettings.withCredentials;
     this.render_method = instanceSettings.render_method || 'POST';
@@ -43,7 +43,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             bucketSizeSeconds: this.bucketSizeSeconds,
         };
 
-        const params = this.buildHyperionParams(graphOptions, options.scopedVars);
+        const params = this.buildTornimoParams(graphOptions, options.scopedVars);
         if (params.length === 0) {
             return $q.when({ data: [] });
         }
@@ -63,7 +63,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             httpOptions.requestId = this.name + '.panelId.' + options.panelId;
         }
 
-        return this.doHyperionRequest(httpOptions).then(this.convertDataPointsToMs);
+        return this.doTornimoRequest(httpOptions).then(this.convertDataPointsToMs);
     };
 
     this.addTracingHeaders = function(httpOptions, options) {
@@ -100,17 +100,17 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
     };
 
     this.annotationQuery = function(options) {
-        // hyperion metric as annotation
+        // tornimo metric as annotation
         if (options.annotation.target) {
             const target = templateSrv.replace(options.annotation.target, {}, 'glob');
-            const hyperionQuery = {
+            const tornimoQuery = {
                 rangeRaw: options.rangeRaw,
                 targets: [{ target: target }],
                 format: 'json',
                 maxDataPoints: 100,
             };
 
-            return this.query(hyperionQuery).then((result) => {
+            return this.query(tornimoQuery).then((result) => {
                 const list = [];
 
                 for (let i = 0; i < result.data.length; i++) {
@@ -133,7 +133,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
                 return list;
             });
         } else {
-            // hyperion event as annotation
+            // tornimo event as annotation
             const tags = templateSrv.replace(options.annotation.tags);
             return this.events({ range: options.rangeRaw, tags: tags }).then(results => {
                 const list = [];
@@ -170,7 +170,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             if (this.token) {
                 token = '&clientId=' + this.token;
             }
-            return this.doHyperionRequest({
+            return this.doTornimoRequest({
                 method: 'GET',
                 url:
                 '/events/get_data?from=' +
@@ -271,7 +271,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
 
         httpOptions.params.token = this.token;
 
-        return this.doHyperionRequest(httpOptions).then(results => {
+        return this.doTornimoRequest(httpOptions).then(results => {
             return _.map(results.data, metric => {
                 return {
                     text: metric.text,
@@ -296,7 +296,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             httpOptions.params.until = this.translateTime(options.range.to, true);
         }
 
-        return this.doHyperionRequest(httpOptions).then(results => {
+        return this.doTornimoRequest(httpOptions).then(results => {
             return _.map(results.data, tag => {
                 return {
                     text: tag.tag,
@@ -321,7 +321,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             httpOptions.params.until = this.translateTime(options.range.to, true);
         }
 
-        return this.doHyperionRequest(httpOptions).then(results => {
+        return this.doTornimoRequest(httpOptions).then(results => {
             if (results.data && results.data.values) {
                 return _.map(results.data.values, value => {
                     return {
@@ -361,7 +361,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             httpOptions.params.until = this.translateTime(options.range.to, true);
         }
 
-        return this.doHyperionRequest(httpOptions).then(results => {
+        return this.doTornimoRequest(httpOptions).then(results => {
             if (results.data) {
                 return _.map(results.data, tag => {
                     return { text: tag };
@@ -399,7 +399,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             httpOptions.params.until = this.translateTime(options.range.to, true);
         }
 
-        return this.doHyperionRequest(httpOptions).then(results => {
+        return this.doTornimoRequest(httpOptions).then(results => {
             if (results.data) {
                 return _.map(results.data, value => {
                     return { text: value };
@@ -419,7 +419,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             requestId: options.requestId,
         };
 
-        return this.doHyperionRequest(httpOptions)
+        return this.doTornimoRequest(httpOptions)
             .then(results => {
                 if (results.data) {
                     const semver = new SemVersion(results.data);
@@ -449,8 +449,8 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             return this.funcDefsPromise;
         }
 
-        if (!supportsFunctionIndex(this.hyperionVersion)) {
-            this.funcDefs = gfunc.getFuncDefs(this.hyperionVersion);
+        if (!supportsFunctionIndex(this.tornimoVersion)) {
+            this.funcDefs = gfunc.getFuncDefs(this.tornimoVersion);
             this.funcDefsPromise = Promise.resolve(this.funcDefs);
             return this.funcDefsPromise;
         }
@@ -460,10 +460,10 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
             url: '/functions',
         };
 
-        this.funcDefsPromise = this.doHyperionRequest(httpOptions)
+        this.funcDefsPromise = this.doTornimoRequest(httpOptions)
             .then(results => {
                 if (results.status !== 200 || typeof results.data !== 'object') {
-                    this.funcDefs = gfunc.getFuncDefs(this.hyperionVersion);
+                    this.funcDefs = gfunc.getFuncDefs(this.tornimoVersion);
                 } else {
                     this.funcDefs = gfunc.parseFuncDefs(results.data);
                 }
@@ -490,7 +490,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
         });
     };
 
-    this.doHyperionRequest = function(options) {
+    this.doTornimoRequest = function(options) {
         if (this.basicAuth || this.withCredentials) {
             options.withCredentials = true;
         }
@@ -500,15 +500,15 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
         }
 
         options.url = this.url + options.url;
-        options.inspect = { type: 'hyperion' };
+        options.inspect = { type: 'tornimo' };
 
         return backendSrv.datasourceRequest(options);
     };
 
     this._seriesRefLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-    this.buildHyperionParams = function(options, scopedVars) {
-        const hyperionOptions = [
+    this.buildTornimoParams = function(options, scopedVars) {
+        const tornimoOptions = [
             'from',
             'until',
             'rawData',
@@ -567,7 +567,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
         }
 
         _.each(options, (value, key) => {
-            if (_.indexOf(hyperionOptions, key) === -1) {
+            if (_.indexOf(tornimoOptions, key) === -1) {
                 return;
             }
             if (value) {

@@ -7,7 +7,7 @@ export class TornimoConfigCtrl {
     constructor($scope, datasourceSrv) {
         this.datasourceSrv = datasourceSrv;
         this.current.jsonData = this.current.jsonData || {};
-        this.current.jsonData.hyperionVersion = this.current.jsonData.hyperionVersion || '1.0';
+        this.current.jsonData.tornimoVersion = this.current.jsonData.tornimoVersion || '1.0';
         this.current.jsonData.bucketSizeSeconds = this.current.jsonData.bucketSizeSeconds || 60;
 
         this.autoDetectTornimoVersion();
@@ -24,12 +24,12 @@ export class TornimoConfigCtrl {
                 return ds.getVersion();
             })
             .then(version => {
-                this.hyperionVersions.push({ name: version, value: version });
-                this.current.jsonData.hyperionVersion = version;
+                this.tornimoVersions.push({ name: version, value: version });
+                this.current.jsonData.tornimoVersion = version;
             });
     }
 
-    hyperionVersions = [{ name: '0.382', value: '0.382' }];
+    tornimoVersions = [{ name: '0.382', value: '0.382' }];
 
     bucketSizes = [
         { name: '1s', value: '1' },

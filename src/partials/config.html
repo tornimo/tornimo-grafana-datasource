@@ -10,7 +10,7 @@
     <div class="gf-form">
       <span class="gf-form-label width-9">Token
         <info-popover mode="right-normal" position="top center">
-          <p>Specify a UUID identifying the client (e.g. hyperion token). If absent - default one (as configured on server) will be used.
+          <p>Specify a UUID identifying the client (e.g. Tornimo token). If absent - default one (as configured on server) will be used.
           Only metrics sent with same Tornimo token will be visible to datasource.</p>
         </info-popover>
       </span>
@@ -37,7 +37,7 @@
       </info-popover>
     </span>
         <span class="gf-form-select-wrapper">
-        <select class="gf-form-input gf-size-auto" ng-model="ctrl.current.jsonData.hyperionVersion" ng-options="f.value as f.name for f in ctrl.hyperionVersions"></select>
+        <select class="gf-form-input gf-size-auto" ng-model="ctrl.current.jsonData.tornimoVersion" ng-options="f.value as f.name for f in ctrl.tornimoVersion"></select>
     </span>
     </div>
 </div>
