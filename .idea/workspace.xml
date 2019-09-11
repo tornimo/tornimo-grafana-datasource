@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a605820-a725-4661-9fcc-c6110b7578b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go10.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go10_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go11.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_go11_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bitly/go-simplejson/simplejson_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/assert.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/assert_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/example/point.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/bmizerany/assert/example/point_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/License" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/diff.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/diff_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/example_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/formatter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/formatter_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/pretty.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/zero.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/License" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/num.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/cmd/agg/string.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/colwriter/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/colwriter/column.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/colwriter/column_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/indent.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/indent_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/mc/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/mc/mc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/wrap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/wrap_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,24 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add_tornimo_func.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/add_tornimo_func.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gopkg.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -182,9 +137,9 @@
       <find>hyperionVersion</find>
       <find>hyper</find>
       <find>doHyperionRequest</find>
-      <find>hyperion</find>
       <find>simplejson</find>
       <find>json</find>
+      <find>hyperion</find>
     </findStrings>
     <replaceStrings>
       <replace>hy</replace>
@@ -248,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/datasource.ts" />
         <option value="$PROJECT_DIR$/src/config_ctrl.ts" />
         <option value="$PROJECT_DIR$/Gopkg.toml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -475,7 +431,7 @@
       <workItem from="1567425954003" duration="1883000" />
       <workItem from="1567514196050" duration="9331000" />
       <workItem from="1567595930110" duration="423000" />
-      <workItem from="1567596529355" duration="77480000" />
+      <workItem from="1567596529355" duration="77604000" />
     </task>
     <servers />
   </component>
@@ -485,10 +441,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89117000" />
+    <option name="totallyTimeSpent" value="89241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="851" y="-1440" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -511,8 +468,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21538462" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16017488" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21538462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16017488" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -722,16 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -894,6 +841,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
