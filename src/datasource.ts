@@ -4,7 +4,7 @@ import gfunc from './gfunc';
 import {SemVersion} from "./utils/version";
 
 /** @ngInject */
-export function HyperionDatasource(this: any, instanceSettings, $q, backendSrv, templateSrv) {
+export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, templateSrv) {
     this.basicAuth = instanceSettings.basicAuth;
     this.url = instanceSettings.url;
     this.name = instanceSettings.name;

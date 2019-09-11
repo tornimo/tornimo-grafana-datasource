@@ -1,6 +1,5 @@
-export class HyperionConfigCtrl {
+export class TornimoConfigCtrl {
     static templateUrl = 'partials/config.html';
-    // static templateUrl = 'public/app/plugins/datasource/hyperion/partials/config.html';
     datasourceSrv: any;
     current: any;
 
@@ -11,10 +10,10 @@ export class HyperionConfigCtrl {
         this.current.jsonData.hyperionVersion = this.current.jsonData.hyperionVersion || '1.0';
         this.current.jsonData.bucketSizeSeconds = this.current.jsonData.bucketSizeSeconds || 60;
 
-        this.autoDetecthyperionVersion();
+        this.autoDetectTornimoVersion();
     }
 
-    autoDetecthyperionVersion() {
+    autoDetectTornimoVersion() {
         if (!this.current.id) {
             return;
         }

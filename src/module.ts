@@ -1,14 +1,14 @@
-import {HyperionDatasource} from './datasource';
-import {HyperionQueryCtrl} from './query_ctrl';
-import {HyperionConfigCtrl} from './config_ctrl';
+import {TornimoDatasource} from './datasource';
+import {TornimoQueryCtrl} from './query_ctrl';
+import {TornimoConfigCtrl} from './config_ctrl';
 
 class HyperionAnnotationsQueryCtrl {
     static templateUrl = 'partials/annotations.editor.html';
 }
 
 export {
-    HyperionDatasource as Datasource,
-    HyperionQueryCtrl as QueryCtrl,
-    HyperionConfigCtrl as ConfigCtrl,
+    TornimoDatasource as Datasource,
+    TornimoQueryCtrl as QueryCtrl,
+    TornimoConfigCtrl as ConfigCtrl,
     HyperionAnnotationsQueryCtrl as AnnotationsQueryCtrl,
 };

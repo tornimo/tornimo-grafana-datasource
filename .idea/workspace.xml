@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a605820-a725-4661-9fcc-c6110b7578b8" name="Default" comment="" />
+    <list default="true" id="3a605820-a725-4661-9fcc-c6110b7578b8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add_hyperion_func.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/add_tornimo_func.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config_ctrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config_ctrl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datasource.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasource.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfunc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfunc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hyperion_query.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tornimo_query.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/query_ctrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/query_ctrl.ts" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +25,8 @@
       <file leaf-file-name="query_ctrl.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/query_ctrl.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="334" column="44" selection-start-line="334" selection-start-column="44" selection-end-line="334" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -23,11 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_hyperion_func.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/add_hyperion_func.ts">
+      <file leaf-file-name="module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_tornimo_func.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/add_tornimo_func.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
@@ -36,20 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/plugin.json">
+      <file leaf-file-name="config_ctrl.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config_ctrl.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="180">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_ctrl.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config_ctrl.ts">
+      <file leaf-file-name="datasource.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datasource.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="180">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,11 +92,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hyperion_query.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hyperion_query.ts">
+      <file leaf-file-name="func_editor.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/func_editor.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="344">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tornimo_query.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tornimo_query.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -78,34 +117,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/config.html">
+      <file leaf-file-name="lexer.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lexer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            <state relative-caret-position="323">
+              <caret line="924" column="24" selection-start-line="924" selection-start-column="24" selection-end-line="924" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.editor.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/query.editor.html">
+      <file leaf-file-name="gfunc.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gfunc.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".baseDir.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/.baseDir.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="version.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/version.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="349">
+              <caret line="883" column="28" selection-start-line="883" selection-start-column="28" selection-end-line="883" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,6 +163,9 @@
       <find>\t</find>
       <find>simplejson</find>
       <find>Version</find>
+      <find>tornimop</find>
+      <find>hy</find>
+      <find>hyp</find>
       <find>hyperion</find>
     </findStrings>
     <replaceStrings>
@@ -173,14 +204,10 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/plugin.json" />
         <option value="$PROJECT_DIR$/src/module.ts" />
-        <option value="$PROJECT_DIR$/src/gfunc.ts" />
         <option value="$PROJECT_DIR$/src/add_hyperion_func.ts" />
-        <option value="$PROJECT_DIR$/src/datasource.ts" />
         <option value="$PROJECT_DIR$/src/func_editor.ts" />
         <option value="$PROJECT_DIR$/src/lexer.ts" />
         <option value="$PROJECT_DIR$/src/parser.ts" />
-        <option value="$PROJECT_DIR$/src/query_ctrl.ts" />
-        <option value="$PROJECT_DIR$/src/config_ctrl.ts" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
@@ -197,6 +224,10 @@
         <option value="$PROJECT_DIR$/src/utils/version.ts" />
         <option value="$PROJECT_DIR$/src/partials/config.html" />
         <option value="$PROJECT_DIR$/src/hyperion_query.ts" />
+        <option value="$PROJECT_DIR$/src/query_ctrl.ts" />
+        <option value="$PROJECT_DIR$/src/gfunc.ts" />
+        <option value="$PROJECT_DIR$/src/datasource.ts" />
+        <option value="$PROJECT_DIR$/src/config_ctrl.ts" />
       </list>
     </option>
   </component>
@@ -292,6 +323,32 @@
               <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="bitly" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tornimo-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tornimo-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="bitly" type="462c0819:PsiDirectoryNode" />
+              <item name="go-simplejson" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,7 +510,7 @@
       <workItem from="1567425954003" duration="1883000" />
       <workItem from="1567514196050" duration="9331000" />
       <workItem from="1567595930110" duration="423000" />
-      <workItem from="1567596529355" duration="73041000" />
+      <workItem from="1567596529355" duration="74938000" />
     </task>
     <servers />
   </component>
@@ -463,10 +520,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84678000" />
+    <option name="totallyTimeSpent" value="86575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="851" y="-1440" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -489,8 +547,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21538462" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16017488" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21538462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16017488" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -557,51 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/func_editor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4770">
-          <caret line="318" selection-start-line="318" selection-end-line="318" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gfunc.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lexer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21825">
-          <caret line="1455" selection-start-line="1455" selection-end-line="1455" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="252" selection-start-line="252" selection-end-line="252" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,24 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/add_hyperion_func.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/config.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -835,20 +830,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasource.ts">
+    <entry file="file://$PROJECT_DIR$/src/plugin.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="375">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config_ctrl.ts">
+    <entry file="file://$PROJECT_DIR$/src/lexer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="323">
+          <caret line="924" column="24" selection-start-line="924" selection-start-column="24" selection-end-line="924" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tornimo_query.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -864,20 +883,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/query_ctrl.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="334" column="44" selection-start-line="334" selection-start-column="44" selection-end-line="334" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hyperion_query.ts">
+    <entry file="file://$PROJECT_DIR$/src/gfunc.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="349">
+          <caret line="883" column="28" selection-start-line="883" selection-start-column="28" selection-end-line="883" selection-end-column="28" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/add_tornimo_func.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config_ctrl.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasource.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/func_editor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

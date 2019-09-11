@@ -765,8 +765,8 @@ addFuncDef({
     defaultParams: ['noise', '60', '-1', '4', 'cosine', '100', '1d', '1.8', '3.2'],
 });
 
-function isVersionRelatedFunction(obj, hyperionVersion) {
-    return !obj.version || isVersionGtOrEq(hyperionVersion, obj.version);
+function isVersionRelatedFunction(obj, tornimoVersion) {
+    return !obj.version || isVersionGtOrEq(tornimoVersion, obj.version);
 }
 
 export class FuncInstance {
@@ -881,13 +881,13 @@ function getFuncDef(name, idx?) {
     return (idx || index)[name];
 }
 
-function getFuncDefs(hyperionVersion, idx?) {
+function getFuncDefs(tornimoVersion, idx?) {
     const funcs = {};
     _.forEach(idx || index, funcDef => {
-        if (isVersionRelatedFunction(funcDef, hyperionVersion)) {
+        if (isVersionRelatedFunction(funcDef, tornimoVersion)) {
             funcs[funcDef.name] = _.assign({}, funcDef, {
                 params: _.filter(funcDef.params, param => {
-                    return isVersionRelatedFunction(param, hyperionVersion);
+                    return isVersionRelatedFunction(param, tornimoVersion);
                 }),
             });
         }

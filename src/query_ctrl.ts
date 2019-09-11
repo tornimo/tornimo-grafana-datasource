@@ -1,15 +1,15 @@
-import './add_hyperion_func';
+import './add_tornimo_func';
 import './func_editor';
 
 import _ from 'lodash';
-import TornimoQuery from './hyperion_query';
+import TornimoQuery from './tornimo_query';
 import { QueryCtrl } from 'grafana/app/plugins/sdk';
 import appEvents from 'grafana/app/core/app_events';
 
-const HYPERION_TAG_OPERATORS = ['=', '!=', '=~', '!=~'];
+const TORNIMO_TAG_OPERATORS = ['=', '!=', '=~', '!=~'];
 const TAG_PREFIX = 'tag: ';
 
-export class HyperionQueryCtrl extends QueryCtrl {
+export class TornimoQueryCtrl extends QueryCtrl {
     static templateUrl = 'partials/query.editor.html';
 
     queryModel: TornimoQuery;
@@ -332,7 +332,7 @@ export class HyperionQueryCtrl extends QueryCtrl {
     }
 
     getTagOperators() {
-        return mapToDropdownOptions(HYPERION_TAG_OPERATORS);
+        return mapToDropdownOptions(TORNIMO_TAG_OPERATORS);
     }
 
     getAllTagValues(tag) {
