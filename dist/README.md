@@ -20,7 +20,7 @@ To install this plugin you need to add artifact to your grafana's plugins direct
 - restart grafana
 
 ### Docker
-If you are using docker you should follow these steps:
+To run docker with this plugin installed you should run:
 
 ```
 docker run \
