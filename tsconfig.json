@@ -24,7 +24,6 @@
     "noImplicitUseStrict": false,
     "noImplicitAny": false,
     "downlevelIteration": true,
-    // "noUnusedLocals": true,
     "pretty": true,
     "typeRoots": ["node_modules/@types"],
     "skipLibCheck": true
