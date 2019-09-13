@@ -28,16 +28,4 @@
     </span>
         <select class="gf-form-input gf-size-auto" ng-model="ctrl.current.jsonData.bucketSizeSeconds" ng-options="f.value as f.name for f in ctrl.bucketSizes"></select>
     </div>
-
-    <div class="gf-form">
-		<span class="gf-form-label width-9">
-      Version
-      <info-popover mode="right-normal" position="top center">
-        This option controls what functions are available in the Tornimo query editor.
-      </info-popover>
-    </span>
-        <span class="gf-form-select-wrapper">
-        <select class="gf-form-input gf-size-auto" ng-model="ctrl.current.jsonData.tornimoVersion" ng-options="f.value as f.name for f in ctrl.tornimoVersion"></select>
-    </span>
-    </div>
 </div>
