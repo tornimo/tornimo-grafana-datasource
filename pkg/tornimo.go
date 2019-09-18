@@ -146,7 +146,7 @@ func (e *TornimoDatasource) createRequest(dsInfo *datasource.DatasourceInfo, tok
 		return nil, fmt.Errorf("Failed to create request. error: %v", err)
 	}
 
-	req.Header.Set("Tornimo-Api-Key", token)
+	req.Header.Set("Authorization", token)
 	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 
 	return req, err

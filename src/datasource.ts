@@ -496,11 +496,7 @@ export function TornimoDatasource(this: any, instanceSettings, $q, backendSrv, t
         }
 
         options.headers = options.headers || {};
-        options.headers["Tornimo-Api-Key"] = this.token;
-
-        if (this.basicAuth) {
-            options.headers.Authorization = this.basicAuth;
-        }
+        options.headers.Authorization = this.token;
 
         options.url = this.url + options.url;
         options.inspect = { type: 'tornimo' };
