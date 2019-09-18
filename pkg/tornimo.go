@@ -62,7 +62,7 @@ func (e *TornimoDatasource) Query(ctx context.Context, request *datasource.Datas
 
 	formData["target"] = []string{target}
 
-	req, err := e.createRequest(request.Datasource, formData)
+	req, err := e.createRequest(request.Datasource, token, formData)
 	if err != nil {
 		return nil, err
 	}
@@ -136,7 +136,7 @@ func (e *TornimoDatasource) parseResponse(res *http.Response) ([]TargetResponseD
 	return data, nil
 }
 
-func (e *TornimoDatasource) createRequest(dsInfo *datasource.DatasourceInfo, data url.Values) (*http.Request, error) {
+func (e *TornimoDatasource) createRequest(dsInfo *datasource.DatasourceInfo, token string, data url.Values) (*http.Request, error) {
 	u, _ := url.Parse(dsInfo.Url)
 	u.Path = path.Join(u.Path, "render")
 
@@ -146,7 +146,9 @@ func (e *TornimoDatasource) createRequest(dsInfo *datasource.DatasourceInfo, dat
 		return nil, fmt.Errorf("Failed to create request. error: %v", err)
 	}
 
+	req.Header.Set("Tornimo-Api-Key", token)
 	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+
 	return req, err
 }
 
