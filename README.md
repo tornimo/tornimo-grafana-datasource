@@ -1,6 +1,6 @@
 # Tornimo Grafana Datasource
 
-[Tornimo](https://tornimo.io) is a real-time monitoring solution, which provides graphite-compatible API wit some additional extensions.
+[Tornimo](https://tornimo.io) is a real-time monitoring platform, which provides graphite-compatible API with many additional functions, stability and scalability.
 
 Datasource is forked from Graphite datasource located in [Grafana](https://github.com/grafana/grafana) repo.
 
@@ -36,5 +36,5 @@ docker run \
 - Choose Tornimo
 - As URL put your Grafana backend URL (you can find it in your admin panel)
 - As Access put Server
-- As Token put your Tornimo's api key (you can find it and generate it in your admin panel)
-- choose Bucket size (60s recommended)
+- As Token put your Tornimo's api key (you can generate it in your admin panel)
+- choose Bucket size (60s is default)
