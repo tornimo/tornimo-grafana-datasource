@@ -1,5 +1,22 @@
+/**
+ *  Copyright 2015 Grafana Labs
+ *  Modifications Copyright 2019 Tornimo
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 import _ from 'lodash';
-import { Parser } from './parser';
+import {Parser} from './parser';
 
 export default class TornimoQuery {
     datasource: any;
@@ -124,7 +141,7 @@ export default class TornimoQuery {
     }
 
     addSelectMetricSegment() {
-        this.segments.push({ value: 'select metric' });
+        this.segments.push({value: 'select metric'});
     }
 
     addFunction(newFunc) {
@@ -145,7 +162,7 @@ export default class TornimoQuery {
 
     addFunctionParameter(func, value) {
         if (func.params.length >= func.def.params.length && !_.get(_.last(func.def.params), 'multiple', false)) {
-            throw { message: 'too many parameters for function ' + func.def.name };
+            throw {message: 'too many parameters for function ' + func.def.name};
         }
         func.params.push(value);
     }
@@ -193,6 +210,7 @@ export default class TornimoQuery {
             });
             targetsByRefId[refId].refCount = refCount;
         }
+
         _.each(targetsByRefId, (t, id) => {
             countTargetRefs(targetsByRefId, id);
         });
