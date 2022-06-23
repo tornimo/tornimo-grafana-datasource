@@ -51,7 +51,7 @@
     "grunt-ts": "^6.0.0-beta.22",
     "jest": "^23.6.0",
     "jquery": "^3.4.1",
-    "jsdom": "~9.12.0",
+    "jsdom": "~16.5.0",
     "load-grunt-tasks": "^3.5.2",
     "mocha": "^5.2.0",
     "ng-annotate-webpack-plugin": "^0.3.0",
