@@ -25,7 +25,7 @@
     "@types/jest": "^23.3.1",
     "@grafana/data": "^6.3.2",
     "@grafana/toolkit": "next",
-    "@grafana/ui": "^6.3.2",
+    "@grafana/ui": "^9.3.2",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
